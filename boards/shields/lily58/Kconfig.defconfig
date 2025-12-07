@@ -23,9 +23,15 @@ config BT_MAX_CONN
 config BT_MAX_PAIRED
     default 5
 
+config ZMK_BLE
+    default y
+
 endif
 
 if SHIELD_LILY58_LEFT || SHIELD_LILY58_RIGHT
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
 
 config ZMK_SPLIT
     default y
