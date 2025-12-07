@@ -5,5 +5,5 @@ config SHIELD_LILY58PRO_D
 config SHIELD_LILY58PRO_L
     def_bool $(shields_list_contains,lily58pro_l)
 
-config SHIELD_LILY58PRO_r
+config SHIELD_LILY58PRO_R 
     def_bool $(shields_list_contains,lily58pro_r)
