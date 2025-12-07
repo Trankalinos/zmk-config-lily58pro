@@ -34,23 +34,6 @@ config ZMK_USB
 
 endif
 
-if SHIELD_TRANADEPTBLE
-
-# This is for TranAdept BLE
-config SPI
-    default y
-
-config ZMK_BLE
-    default y
-
-config ZMK_POINTING
-    default y
-
-config ZMK_SPLIT
-    default y
-
-endif
-
 if SHIELD_LILY58PRO_L || SHIELD_LILY58PRO_R
 
 config ZMK_SPLIT

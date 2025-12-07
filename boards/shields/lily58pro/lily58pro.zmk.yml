@@ -2,7 +2,7 @@ file_format: "1"
 id: lily58pro
 name: lily58pro
 type: shield
-url: https://github.com/trankalinos/zmk-config-lily58prodongle
+url: https://github.com/trankalinos/zmk-config-lily58pro
 requires:
   - seeeduino_xiao_ble
   - nice_nano_v2
@@ -10,4 +10,3 @@ siblings:
   - lily58pro_d
   - lily58pro_l
   - lily58pro_r
-  - TranAdeptBLE
