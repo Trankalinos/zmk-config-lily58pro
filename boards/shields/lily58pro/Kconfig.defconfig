@@ -2,7 +2,7 @@ if SHIELD_LILY58PRO_D
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "LILY58-PROADEPT"
+    default "LILY58-PRO"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -13,7 +13,7 @@ config ZMK_SPLIT
 # Set this to the number of peripherals your dongle will have.
 # For a unibody, this would be 1. If you have left and right halves, set it to 2, etc.
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 3
+    default 2
 
 config ZMK_POINTING
     default y
