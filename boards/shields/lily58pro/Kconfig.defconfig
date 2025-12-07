@@ -24,13 +24,3 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     # default 5
 
 endif
-
-if SHIELD_LILY58PRO_L || SHIELD_LILY58PRO_R 
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default n
-
-config ZMK_SPLIT
-    default y
-
-endif
