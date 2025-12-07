@@ -25,7 +25,6 @@ include:
   # Change the board appropriately, you can use any board
   - board: seeeduino_xiao_ble
     shield: lily58_dongle
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
   - board: seeeduino_xiao_ble
     shield: settings_reset
   # Add these cmake-args to the peripherals you wish to use with the dongle
